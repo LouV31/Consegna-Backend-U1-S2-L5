@@ -1,0 +1,4 @@
+CREATE TABLE Tipo_Violazione(
+	idViolazione INT IDENTITY PRIMARY KEY NOT NULL,
+	Descrizione NVARCHAR(200) NOT NULL,
+);
